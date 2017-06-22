@@ -1,0 +1,61 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+    <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <Koppla in Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+    <link rel="stylesheet" type ="text/css" href="css/style.css">
+
+    <!-- Koppla in och JQuery Bootstrap javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Koppla in egen JavaScript-fil funktion.js OBS! Ha den som sista js-fil -->
+    <script type="text/javascript" src="js/funktion.js"></script>
+
+    <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+    <title>Min titel</title>
+</head>
+
+<!-- I body finns allt innehåll på hemsidan -->
+<body>
+
+    <!-- I header finns allt som är sidans toppdel där rubrik och menu ofta finns -->
+    <header>
+        <!-- I nav finns alla länkar eller knappar för navigering, tex en menyrad -->
+        <nav class="nav navbar-inverse navbar-static-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Startsida</a>
+                <ul class="nav navbar-nav">
+                    <!-- Listpunkterna här blir knappar för dina olika menyval i menyn -->
+                    <li><a href="menyval1.html"> Recept </a></li>
+                    <li><a href="menyval2.html"> Nyheter </a></li>
+                    <li><a href="menyval3.html"> Fakta </a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- I main finns huvudsakliga innehållet, exempelvis blogginlägg eller topplistor -->
+    <main>
+    <center>
+<h1> SLIME </h1>
+</center> 
+<h3> Viktig fakta: </h3> <center>
+<p> Det började att bli populärt att hålla på med slime år 2016. Men nu vissar det säg att det kan vara farligt att hålla på med slime. Pga att några ingredienser är farliga för huden. Två av ingredienserna som är farliga för huden är lim och tvättmedel. Limet kan torka på skinnet och då kan händerna bli tora och skrynkliga. Tvättmedel innehåller en ingrediens som heter borax och det kan göra stora uttslag på händerna eller den delen du rör på slimet med. </p>
+</center> 
+<center>
+<img src="http://scontent.cdninstagram.com/t51.2885-15/s480x480/e15/14597419_1374177439280146_869926010689159168_n.jpg?ig_cache_key=MTM5ODA3OTI3NzMyMDU1MTU1Mw%3D%3D.2"></img>
+</center> 
+    </main>
+</body>
+</html>
